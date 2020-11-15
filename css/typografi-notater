@@ -1,0 +1,83 @@
+Nav
+museo-sans 20pt, 700
+samme som body tekst, men 700
+
+
+H1 (Showcase og Tittel artikkel)
+museo-slab 72pt, 700
+1.33x line height
+.7px letter spacing
+
+
+.homepage-heading H2 (Headings hjemmside)
+museo-slab 67pt, 700
+
+
+H2 (Heading 1 artikkel)
+museo-slab 40pt, 700
+1.35x line height
+
+
+noe som .side H2 (Heading 1 side myte 1-7)
+museo-sans 40pt, 300
+1.35 line height
+right-aligned
+
+
+H3 (Heading 2 artikkel)
+museo-sans 28, 700
+1.36x line height
+
+H4 (Bilde heading og myte subheading "FEIL...")
+museo-sans 22pt, 500
+1.54x line height
+
+H4 (Ikon og artikkel heading på hjemmside)
+museo-sans 22pt, 700
+
+H5 (Footer headings)
+museo-sans 20pt, 700
+
+
+
+
+
+p (Body og footer tekst)
+museo-sans 20pt, 300
+1.5x line height
+
+
+#showcase .intro-tekst p (Showcase subtittel)
+museo-sans 35pt, 300
+1.71x line height
+
+
+.intro-tekst p (Hvem vi er tekst, Artikkel intro, Dine penger går til)
+museo-sans 32pt, 300
+1.56x line height
+
+
+(Noe som) .bli-medlem-footer p (Bli medlem footer tekst)
+museo-sans 32pt, 500
+
+.liten-tekst p (Liten tekst - forfatter, bilde kilde, bunnen tekst)
+museo-sans 14pt, 300
+1.57x line height
+blå link
+700 referanse heading
+
+
+.skattefordel p (Du får skattefordel)
+museo-sans 22pt, 300
+
+
+
+
+Link tekst
+samme som body men 500 og blå
+
+Bli medlem nav knapp, send inn form knapp: sans 20, 700
+
+Bli medlem footer knapp, bli medlem nå knapp: sans 36pt, 700
+
+

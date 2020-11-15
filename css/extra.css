@@ -1,0 +1,122 @@
+/*Table version for footer*/
+@media screen and (max-width:1024px) {
+  br {
+    display: none;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  #footer .container div:nth-child(1) {
+    grid-column: 3/12;
+    grid-row: 1;
+    width: 66.5vw;
+  }
+
+  #footer .container div:nth-child(2) {
+    grid-column: 3/12;
+    grid-row: 2;
+    width: 424px;
+  }
+
+  #footer .container div:nth-child(3) {
+    grid-column: 3/12;
+    grid-row: 3;
+    width: 310px;
+  }
+
+  #footer .lite-info {
+    margin-top: 0;
+  }
+
+  #info p {
+    width: 655px;
+    margin-bottom: 58px;
+  }
+
+  #footer .kontakt,
+  #footer .nyhetsbrev {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width:750px) {
+  #info p {
+    width: 92vw;
+    margin-bottom: 58px;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+
+  #stott-oss p,
+  p {
+    font-size: 16px;
+  }
+
+  #footer .container div:nth-child(1),
+  #footer .container div:nth-child(2),
+  #footer .container div:nth-child(3) {
+    width: auto;
+    margin-top: 80px;
+  }
+
+  #footer .container {
+    display: block;
+  }
+
+  #footer .lite-info {
+    max-width: 400px;
+    margin-left: 20px;
+    line-height: 1.7rem;
+  }
+
+  #footer .nyhetsbrev {
+    margin-left: 20px;
+  }
+
+  #footer .nyhetsbrev input {
+    width: 70%;
+  }
+
+  #footer .kontakt {
+    max-width: 400px;
+    margin-left: 20px;
+    line-height: 1.7rem;
+  }
+}
+
+/* BUNN AV SIDE */
+
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+
+.copyright a {
+  text-decoration: none;
+  color: var(--footerGrey);
+}
+
+@media screen and (max-width: 500px) {
+  .copyright {
+    display: flex;
+  }
+
+  .copyright .KO {
+    margin-left: 10px;
+  }
+
+  .copyright .PV {
+    margin-left: 20px;
+  }
+
+  .copyright .LOGONAVN {
+    margin-left: 20px;
+  }
+}

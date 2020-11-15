@@ -1,0 +1,2843 @@
+* {
+  box-sizing: border-box;
+}
+
+/* ---- Variables -----*/
+
+:root {
+  --primaryGreen: #b5de8c;
+  --secondaryGreen: #eaf6df;
+  --footerGrey: #65645e;
+  --black: #333333;
+  --linkBlue: #4da2d1;
+}
+a {
+  text-decoration: underline;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+}
+
+a {
+  font-family: "museo-sans";
+  text-decoration: none;
+  color: var(--black);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 2rem;
+  color: var(--black);
+}
+
+h1 {
+  font-family: "museo-slab";
+  font-weight: 700;
+  font-size: 4.5rem;
+  line-height: 1.33;
+  letter-spacing: 0.02rem;
+}
+
+h2 {
+  font-family: "museo-slab";
+  font-weight: "700";
+  font-size: 2.5rem;
+  line-height: 1.35;
+  letter-spacing: 0rem;
+}
+
+h3 {
+  font-family: "museo-sans";
+  font-weight: 700;
+  font-size: 1.75rem;
+  line-height: 1.36;
+  letter-spacing: 0.0019rem;
+}
+
+h4 {
+  font-family: "museo-sans";
+  font-weight: 500;
+  font-size: 1.37rem;
+  line-height: 1.54;
+  letter-spacing: 0.02rem;
+}
+
+p {
+  color: var(--black);
+  font-family: "museo-sans";
+  font-weight: 300;
+  font-size: 1.25rem;
+  line-height: 1.75;
+  margin-bottom: 1.75rem;
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* -------------------- GENERAL CLASSES ---------------------- */
+
+.main-grid {
+  display: grid;
+  width: 85%;
+  height: 100%;
+  grid-template-columns: repeat(12, 1fr);
+  /* grid-template-rows: repeat(12, 1fr); */
+  grid-column-gap: 16px;
+  margin: 0 auto;
+}
+
+.triangle-background {
+  background: url(/img/top_triangle.svg) no-repeat;
+  background-position-x: 250px;
+  background-position-y: 300px;
+}
+
+.intro-tekst {
+  font-weight: 300;
+  font-size: 2rem;
+  line-height: 1.56;
+}
+
+.liten-tekst {
+  margin-top: 7px;
+  font-size: 0.9rem;
+}
+
+.bilde-heading {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.bli-medlem-footer-tekst {
+  grid-column: 4/9;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 1.56;
+  margin-top: 100px;
+}
+
+.link {
+  color: var(--linkBlue);
+  text-decoration: underline;
+}
+
+.homepage-heading {
+  font-family: "museo-slab";
+  font-weight: "700";
+  font-size: 4.19rem;
+  line-height: 1.35;
+  letter-spacing: 0rem;
+  margin-left: 15%;
+  margin-top: 100px;
+}
+
+.homepage-small-heading {
+  font-weight: 700;
+}
+
+.list {
+  font-family: "museo-sans";
+  font-weight: 300;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  color: var(--black);
+  margin-left: 50px;
+  margin-bottom: 30px;
+  list-style-position: outside;
+}
+
+.totop {
+  text-align: center;
+}
+
+.list li {
+  margin-bottom: 1.75rem;
+}
+
+.social_icon {
+  display: flex;
+  margin-left: -7.5px;
+}
+
+.social_icon img {
+  width: 80px;
+}
+
+label {
+  font-family: "museo-sans";
+}
+
+/* ------------- HEADER ------------ */
+
+header {
+  font-family: "museo-sans";
+}
+
+header .branding {
+  margin: 25px 0 25px 72px;
+  float: left;
+  width: 68px;
+  height: 68px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+}
+
+.content-padding {
+  padding-top: 118px;
+}
+
+.header-container {
+  z-index: 99;
+}
+
+/* ----------- BUTTONS -------- */
+
+header .button_1 {
+  float: right;
+  margin: 29px 55px 29px 0px;
+  color: #fff;
+  width: 231px;
+  height: 60px;
+  background: var(--primaryGreen);
+  padding: 0.3vw 0.6vw;
+  border-radius: 3vw;
+  border: none;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.button_2 {
+  cursor: pointer;
+}
+
+.button_1:hover {
+  color: var(--black);
+}
+
+/* ------------- NAVIGATION ---------------- */
+
+nav {
+  height: 118px;
+  background: white;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 118px;
+  margin-left: 8%;
+}
+
+nav ul li a {
+  position: relative;
+  padding: 5px 0;
+  color: var(--black);
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+nav ul li a:before {
+  position: absolute;
+  content: "";
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: var(--primaryGreen);
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.4s linear;
+}
+
+nav ul li a:hover:before {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+label #btn,
+label #cancel {
+  font-size: 30px;
+  color: var(--black);
+  float: right;
+  line-height: 70px;
+  margin-right: 15px;
+  cursor: pointer;
+  display: none;
+}
+
+#check {
+  display: none;
+}
+
+/* ----------------- NEW HAMBURGER MENU --------------- */
+
+/* ----------- MOBILE HAMBURGER MENU --------------- */
+
+@media (max-width: 800px) {
+  .button_1 {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  header .branding {
+    margin: 10px 15px 10px 15px;
+    float: left;
+    width: 50px;
+    height: 50px;
+  }
+
+  .button_1 {
+    display: none;
+  }
+
+  label #btn {
+    display: block;
+  }
+
+  nav {
+    height: 70px;
+  }
+
+  ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: var(--secondaryGreen);
+    top: 70px;
+    left: -100%;
+    text-align: center;
+    transition: all 0.5s;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+
+  nav ul li a {
+    font-size: 20px;
+  }
+
+  #check:checked ~ ul {
+    left: 0;
+  }
+
+  #check:checked ~ label #btn {
+    display: none;
+  }
+
+  #check:checked ~ label #cancel {
+    display: block;
+  }
+}
+
+/* -------------------- SHOWCASE ---------------------- */
+
+#showcase {
+  height: 100vh;
+  background: url("../img/hjemside.svg") no-repeat center fixed;
+  background-size: cover;
+  background-position: 80%;
+}
+
+#showcase h1 {
+  margin-left: 14.5%;
+  margin-top: 100px;
+}
+
+.showcase-intro {
+  width: 1013px;
+  margin-left: 14.5%;
+}
+
+#showcase .intro-tekst {
+  font-weight: 300;
+  font-size: 2.2rem;
+  line-height: 1.71;
+}
+
+/* ---------- Hvem vi er seksjon -------------*/
+
+#hvem-vi-er {
+  -webkit-transform: skewY(-2deg);
+  -ms-transform: skewY(-2deg);
+  -o-transform: skewY(-2deg);
+  -moz-transform: skewY(-2deg);
+  transform: skewY(-2deg);
+}
+
+#hvem-vi-er .container {
+  -webkit-transform: skewY(2deg);
+  -ms-transform: skewY(2deg);
+  -o-transform: skewY(2deg);
+  -moz-transform: skewY(2deg);
+  transform: skewY(2deg);
+}
+
+#hvem-vi-er h2 {
+  position: absolute;
+  margin-left: 14.5%;
+}
+
+#hvem-vi-er p {
+  margin-top: 250px;
+  margin-bottom: 80px;
+  margin-left: 22%;
+  width: 1088px;
+}
+
+/* ------------ HVA VI GJØR SEKSJON -------------- */
+
+#hva-vi-gjør {
+  background: var(--secondaryGreen);
+  margin-top: 20px;
+  min-height: 800px;
+  padding-top: 20px;
+  -webkit-transform: skewY(-2deg);
+  -ms-transform: skewY(-2deg);
+  -o-transform: skewY(-2deg);
+  -moz-transform: skewY(-2deg);
+  transform: skewY(-2deg);
+}
+
+#hva-vi-gjør .container {
+  -webkit-transform: skewY(2deg);
+  -ms-transform: skewY(2deg);
+  -o-transform: skewY(2deg);
+  -moz-transform: skewY(2deg);
+  transform: skewY(2deg);
+}
+
+#hva-vi-gjør h2 {
+  -webkit-transform: skewY(2deg);
+  -ms-transform: skewY(2deg);
+  -o-transform: skewY(2deg);
+  -moz-transform: skewY(2deg);
+  transform: skewY(2deg);
+}
+
+/* #hva-vi-gjør .container-1 {
+  margin-top: 19%;
+}
+
+#hva-vi-gjør .container-2 {
+  margin-top: 19%;
+} */
+
+#hva-vi-gjør h4 {
+  font-weight: 700px;
+  font-family: "museo-sans";
+  margin-bottom: -10px;
+}
+
+#hva-vi-gjør p {
+  text-align: left;
+  font-weight: 300;
+  line-height: 1.7rem;
+  margin-right: 70px;
+  overflow: hidden;
+}
+
+.icon {
+  width: 165px;
+}
+
+.container-1 {
+  margin-top: 20px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+#hva-vi-gjør .row .content {
+  height: 300px;
+  width: 40vw;
+}
+
+#hva-vi-gjør .logo {
+  width: 135px;
+  height: 250px;
+  float: left;
+}
+
+.imgBox {
+  float: left;
+  margin-right: 40px;
+}
+
+.container-1 {
+  display: flex;
+  min-height: 100%;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex: 1;
+}
+
+@media screen and (max-width: 500px) {
+  #hva-vi-gjør .container {
+    display: block;
+  }
+}
+
+/* ------------- KLIMAMYTER index seksjon -------------- */
+#myter .kaffe {
+  width: 300px;
+}
+
+#myter .bok {
+  width: 300px;
+  margin-top: 15px;
+}
+
+#myter .kjøtt {
+  width: 300px;
+  margin-top: 50px;
+}
+
+#myter h2 {
+  margin-top: 120px;
+  margin-left: 14.53%;
+}
+
+#myter .myter-container {
+  display: grid;
+  grid-template-columns: repeat(3, 26.7vw);
+  margin-left: 14.53%;
+  margin-bottom: 60px;
+}
+
+/* ------------ STØTT OSS seksjon ------------------*/
+
+#bli-medlem-footer {
+  background: var(--primaryGreen);
+}
+
+#bli-medlem-footer .container {
+  max-width: 1000px;
+}
+
+#bli-medlem-footer button {
+  margin: 0 auto;
+  display: block;
+  color: var(--black);
+  background: #fff;
+  padding: 18px 0;
+  border: none;
+  width: 300px;
+  border-radius: 3vw;
+  font-weight: 700;
+  font-size: 1.8rem;
+  letter-spacing: 0.02rem;
+  text-transform: uppercase;
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
+
+#bli-medlem-footer button:hover {
+  color: var(--primaryGreen);
+}
+
+#bli-medlem-footer p {
+  margin-top: 100px;
+}
+
+@media screen and (max-width: 500px) {
+  #bli-medlem-footer p,
+  p {
+    font-size: 16px;
+  }
+
+  #bli-medlem-footer .container div:nth-child(1),
+  #bli-medlem-footer .container div:nth-child(2),
+  #bli-medlem-footer .container div:nth-child(3) {
+    width: auto;
+    margin-top: 80px;
+  }
+
+  #bli-medlem-footer .bli-medlem-footer-tekst {
+    max-width: 400px;
+    margin-left: 20px;
+    line-height: 1.7rem;
+  }
+}
+
+/* ----------------- FOOTER seksjon ------------------ */
+
+#footer {
+  background: var(--footerGrey);
+}
+
+#footer .copyright {
+  background: #fff;
+  color: var(--footerGrey);
+}
+
+#footer .container div:nth-child(1) {
+  grid-column: 2/5;
+  grid-row: 1;
+  margin-top: 80px;
+}
+
+#footer .container div:nth-child(2) {
+  grid-column: 5/9;
+  grid-row: 1;
+  margin: 80px auto;
+}
+
+#footer .container div:nth-child(3) {
+  grid-column: 9/13;
+  grid-row: 1;
+  padding-right: 120px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+#footer h4 {
+  color: white;
+  font-weight: 700;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+#footer p {
+  color: white;
+  margin-bottom: 0;
+}
+
+#footer .nyhetsbrev input {
+  width: 255px;
+  height: 74px;
+  border: none;
+  padding-left: 17px;
+  margin-bottom: 42px;
+  margin-right: 4px;
+  font-family: "museo-sans";
+  font-weight: 300;
+  font-size: 1.25rem;
+}
+
+#footer .nyhetsbrev button {
+  margin-top: 14px;
+  margin-right: 20px;
+  color: var(--black);
+  background: var(--primaryGreen);
+  padding: 0px;
+  width: 122px;
+  height: 74px;
+  border: none;
+  font-family: "museo-sans";
+  font-weight: 700;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+}
+
+::-webkit-input-placeholder {
+  /* Edge */
+  color: #909090;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer */
+  color: #909090;
+}
+
+::placeholder {
+  color: #909090;
+}
+
+/* BUNN AV SIDE */
+
+/* .copyright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 48px 14.5%;
+} */
+
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  padding: 48px 14.5%;
+}
+
+.copyright a {
+  text-decoration: underline;
+  color: var(--black);
+}
+
+a .homepage-small-heading {
+  text-decoration: underline;
+}
+/* @media screen and (max-width: 750px) {
+  .copyright a {
+    width: 200px;
+  }
+} */
+
+/* @media screen and (max-width: 500px) {
+  .copyright {
+    display: flex;
+  }
+
+  .copyright .KO {
+    margin-left: 10px;
+  }
+
+  .copyright .PV {
+    margin-left: 20px;
+  }
+
+  .copyright .LOGONAVN {
+    margin-left: 20px;
+  }
+} */
+
+/* ---------- BOKARTIKKEL -----------------  */
+
+.bok-illustrasjon {
+  grid-column: 7/12;
+  padding-top: 150px;
+  padding-right: 20px;
+  grid-row: 1;
+  width: 36.5vw;
+}
+
+.bok-headline {
+  grid-column: 2/7;
+  padding-top: 300px;
+  text-align: center;
+}
+
+.ingress {
+  grid-column: 4/10;
+}
+
+.paragraph {
+  grid-column-start: 4;
+  grid-column-end: 10;
+  /*  margin-bottom:5.2vw;*/
+}
+
+/* ----------- KAFFE ARTIKKEL ---------------- */
+
+.turn-background {
+  background: var(--secondaryGreen);
+  -webkit-transform: skewY(-2deg);
+  -ms-transform: skewY(-2deg);
+  -o-transform: skewY(-2deg);
+  -moz-transform: skewY(-2deg);
+  transform: skewY(-2deg);
+}
+
+.turn-content {
+  -webkit-transform: skewY(2deg);
+  -ms-transform: skewY(2deg);
+  -o-transform: skewY(2deg);
+  -moz-transform: skewY(2deg);
+  transform: skewY(2deg);
+}
+
+/* -- Kaffe --  */
+
+.kaffe-illustrasjon {
+  grid-column: 7/10;
+  padding-top: 80px;
+  padding-right: 20px;
+  width: 37vw;
+}
+
+.kaffe-headline {
+  grid-column: 2/7;
+  grid-row: 1;
+  padding-top: 250px;
+}
+
+/* Display none */
+
+.mobil-bønnegraf,
+.mobil-vanngraf,
+.mobil-utslipp-1,
+.mobil-utslipp-2,
+.mobil-utslipp-3,
+.mobil-klimagraf {
+  display: none;
+}
+
+.bønnegraf {
+  grid-column: 4/7;
+  margin-top: 40px;
+  margin-bottom: 80px;
+  width: 50vw;
+}
+
+/* -- Vann -- */
+
+.artikkel-heading {
+  grid-column: 3/10;
+  margin-top: 80px;
+}
+
+.artikkel-heading1 {
+  grid-column: 3/10;
+  margin-top: 80px;
+}
+
+.vanngraf {
+  grid-column: 4/8;
+  margin-top: 40px;
+  margin-bottom: 80px;
+  width: 50vw;
+}
+
+/* -- Gass -- */
+
+.gass-statistikk h2 {
+  grid-column: 4/9;
+  font-family: "museo-slab";
+  margin-top: 70px;
+}
+
+.klimagraf {
+  grid-column: 4/8;
+  margin-top: 40px;
+  width: 50vw;
+}
+
+.gass-paragraph h4 {
+  font-weight: 500;
+}
+
+/*  -- Fairtrade -- */
+
+#fairtrade {
+  background: var(--secondaryGreen);
+  -webkit-transform: skewY(-2deg);
+  -ms-transform: skewY(-2deg);
+  -o-transform: skewY(-2deg);
+  -moz-transform: skewY(-2deg);
+  transform: skewY(-2deg);
+}
+
+.fairtrade-container {
+  -webkit-transform: skewY(2deg);
+  -ms-transform: skewY(2deg);
+  -o-transform: skewY(2deg);
+  -moz-transform: skewY(2deg);
+  transform: skewY(2deg);
+}
+
+.fairtrade-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 100px auto 100px auto;
+  padding: 100px;
+}
+
+.fair-logo {
+  margin: auto;
+}
+
+.fairtrade-paragraph {
+  margin: auto;
+}
+
+.fairtrade-container h2 {
+  margin-bottom: 40px;
+}
+
+/* TIPS */
+
+.tips {
+  min-height: 500px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.tips h2 {
+  grid-column: 4/9;
+  margin-top: 100px;
+}
+
+.tips-paragraph {
+  grid-column: 5/10;
+}
+
+/* OPPDATERING */
+
+.utslipp {
+  grid-column: 4/10;
+  width: 50vw;
+}
+
+/************* KJØTT artikler **************/
+
+.kjøtt-illustrasjon {
+  grid-column: 7/10;
+  padding-top: 80px;
+  padding-right: 20px;
+  width: 36.6vw;
+  margin-bottom: 70px;
+}
+
+.kjøtt-headline {
+  grid-column: 1/7;
+  grid-row: 1;
+  padding-top: 250px;
+  padding-left: 100px;
+  font-weight: 700;
+  letter-spacing: 0.07px;
+  opacity: 1;
+}
+
+.grønnskatt {
+  margin-bottom: 90px;
+}
+.grønnskatt img {
+  width: 42vw;
+}
+.traktor {
+  width: 200px;
+  margin-left: -40vw;
+  margin-right: -50vw;
+  position: absolute;
+  margin-top: 200px;
+  left: 50%;
+  right: 50%;
+}
+
+.ku1 {
+  width: 200px;
+  margin-left: -40vw;
+  margin-right: -50vw;
+  position: absolute;
+  margin-top: 2000px;
+  left: 50%;
+  right: 50%;
+}
+
+.ku2 {
+  width: 200px;
+  margin-left: 25vw;
+  margin-right: -50vw;
+  position: absolute;
+  margin-top: 2700px;
+  left: 50%;
+  right: 50%;
+}
+
+.biff {
+  width: 200px;
+  margin-left: -40vw;
+  margin-right: -50vw;
+  position: absolute;
+  margin-top: 200px;
+  left: 50%;
+  right: 50%;
+}
+
+.carrot {
+  width: 200px;
+  margin-left: -40vw;
+  margin-right: -50vw;
+  position: absolute;
+  margin-top: 700px;
+  left: 50%;
+  right: 50%;
+}
+
+.broccoli {
+  width: 200px;
+  margin-left: 25vw;
+  margin-right: -50vw;
+  position: absolute;
+  margin-top: 400px;
+  left: 50%;
+  right: 50%;
+}
+
+.kraftfor {
+  grid-column: 4/9;
+  margin-bottom: 40px;
+  width: 42vw;
+}
+
+.myte {
+  grid-column: 2/4;
+  margin-top: 80px;
+}
+
+.myte h2 {
+  font-weight: 300;
+  font-family: "museo-sans";
+}
+
+.myte1 {
+  grid-column: 2/4;
+  margin-top: 80px;
+}
+
+.myte1 h2 {
+  font-weight: 300;
+  font-family: "museo-sans";
+}
+
+.sau {
+  grid-column: 4/9;
+  margin-bottom: 40px;
+  /*margin-top: 40px;*/
+  width: 42vw;
+}
+
+.storfe {
+  grid-column: 4/9;
+  margin-bottom: 40px;
+  /*margin-top: 40px;*/
+  width: 42vw;
+}
+
+/* DISPLAY NONE */
+.mobil-traktor,
+.ku1-mobil,
+.ku2-mobil,
+.mobil-biff,
+.mobil-broccoli,
+.mobil-carrot,
+.mobil-storfe,
+.mobil-kraftfor,
+.mobil-sau {
+  display: none;
+}
+
+.ku1-mobil {
+  width: 142px;
+  height: 66.93px;
+  margin-left: 45.5px;
+}
+
+.ku2-mobil {
+  width: 142px;
+  height: 68.13px;
+  margin-left: 187.5px;
+}
+
+.mobil-biff {
+  margin-top: 30px;
+  margin-left: 218px;
+  width: 81px;
+  height: 56.12px;
+}
+
+.mobil-broccoli {
+  width: 81px;
+  height: 73.08px;
+  margin-left: 86px;
+}
+
+.mobil-carrot {
+  width: 111.5px;
+  height: 58.08px;
+  margin-left: 187.5px;
+}
+
+/*  */
+
+/********* form *******/
+#form {
+  clear: both;
+  height: auto;
+  padding-bottom: 7.1vw;
+  /* position: relative; */
+  /*border: 1px solid black;*/
+}
+
+/* #form .text {} */
+
+#form .text,
+#form .form,
+#form .register {
+  width: 60vw;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+/* #form h2 {
+  font-family: "museo-slab";
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 53px;
+  /*3.75vw, 54px
+  margin-bottom: 20px;
+} */
+
+#form h1 {
+  text-align: center;
+}
+
+/* #form .text_1 {
+  font-family: "museo-slab";
+  line-height: 40px;
+  /*width: 678px;*/
+/*33vw, 477px
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 26px;
+  /*3.75vw, 54px
+  cursor: #707070;
+} */
+
+#form .intro-tekst {
+  margin: 0 auto;
+  width: 58vw;
+  font-size: 1.8vw;
+  text-align: center;
+}
+
+#form .text .btn_2 {
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  color: #fff;
+  background: var(--primaryGreen);
+  padding: 18px 0;
+  border: none;
+  width: 300px;
+  border-radius: 3vw;
+  font-weight: 700;
+  font-size: 1.8rem;
+  letter-spacing: 0.02rem;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+#form .text .btn_2:hover {
+  color: var(--black);
+}
+
+/* .button_1:hover {
+  background-color: var(--secondaryGreen);
+  color: #65645e;
+} */
+
+#form .text .text_2 {
+  margin: 0 auto;
+  margin-top: 30px;
+  text-align: center;
+  font-size: 1.3vw;
+}
+
+#form .text_3 {
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px;
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+.img_guider {
+  width: 3.54vw;
+  height: 3.54vw;
+  position: absolute;
+  left: 90vw;
+}
+
+/****  popup - form ****/
+
+#form .form .info {
+  width: 70vw;
+  /* width: 1013px; */
+  margin: 0 auto;
+}
+
+#medlem .column {
+  float: left;
+  width: 29vw;
+  height: 80px;
+  margin-top: 10px;
+  margin-bottom: 60px;
+  /*border: 1px solid black;*/
+}
+
+#medlem .column label {
+  color: var(--black);
+  font-family: "museo-sans";
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+#medlem .column input {
+  box-sizing: border-box;
+  width: 27vw;
+  height: 58px;
+  vertical-align: bottom;
+  border: none;
+  outline: none;
+  border-bottom: 1px var(--black) solid;
+  font-family: "museo-sans";
+  font-weight: 300;
+  font-size: 1.37rem;
+}
+
+#medlem span {
+  color: var(--black);
+  font-family: "museo-sans";
+  font-weight: 300;
+  font-size: 0.9rem;
+  color: red;
+  display: none;
+  margin-top: 5px;
+}
+
+#form .form button {
+  clear: both;
+  display: block;
+  margin: 0 auto;
+  margin-top: 100px;
+  margin-bottom: 60px;
+  color: #fff;
+  width: 231px;
+  height: 60px;
+  background: var(--primaryGreen);
+  padding: 0.3vw 0.6vw;
+  border-radius: 3vw;
+  border: none;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+/* .btn_3:hover {
+  color: var(--black)
+} */
+
+/***** pop - up for sccessful to regiter **/
+#form .register h1 {
+  width: auto;
+}
+
+section .form {
+  width: auto;
+  height: 629px;
+}
+
+#form .form,
+#form .register {
+  display: none;
+}
+
+.info input[type="checkbox"] + label {
+  display: block;
+  margin: 0.2em;
+  /*cursor: pointer;*/
+  padding: 0.2em;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+.form input[type="checkbox"] + label:before {
+  content: " ";
+  border: 0.1em solid #000;
+  border-radius: 0.2em;
+  display: inline-block;
+  width: 0.8em;
+  height: 0.8em;
+  padding-left: 0.2em;
+  padding-bottom: 0.3em;
+  /* margin-right: 0.2em; */
+  vertical-align: text-bottom;
+  color: transparent;
+  transition: 0.2s;
+}
+
+input[type="checkbox"] + label:active:before {
+  transform: scale(0);
+}
+
+input[type="checkbox"]:checked + label:before {
+  background-color: MediumSeaGreen;
+  border-color: MediumSeaGreen;
+  color: #fff;
+}
+
+input[name="telepone"],
+input[name="epost"] {
+  margin-bottom: 0;
+}
+
+#form .checkbox {
+  clear: both;
+  width: 500px;
+  height: auto;
+  margin-left: 22px;
+}
+
+#form .checkbox label {
+  display: block;
+  float: left;
+  width: 25vw;
+  height: 70px;
+  font-family: "museo-sans";
+  font-weight: 300;
+  line-height: 1.4;
+  text-indent: -1.5em;
+  margin-bottom: 35px;
+}
+
+/********** form end *****************/
+/******************  finish registering  *************/
+/******************  finish registering  *************/
+/* .illustration {
+  width: 744px;
+  height: 394px;
+  position: relative;
+} */
+
+.illustration {
+  width: 1088px;
+  height: 445px;
+  position: relative;
+}
+
+.illustration .sun {
+  position: absolute;
+  width: 200px;
+  left: 73px;
+  height: auto;
+  margin-left: 160px;
+  transition: transform 1s ease-in 1s;
+}
+
+.illustration .cloud1 {
+  position: absolute;
+  width: 173px;
+  height: auto;
+  top: 57px;
+  margin-left: 160px;
+  transition: transform 1s ease-in 1s;
+}
+
+.illustration .cloud2 {
+  position: absolute;
+  width: 173px;
+  height: auto;
+  top: 128px;
+  left: 168px;
+  margin-left: 160px;
+  transition: transform 1s ease-in 1s;
+}
+
+.illustration .bluecloud1 {
+  position: absolute;
+  width: 280px;
+  top: 125.25px;
+  left: 275.25px;
+  margin-left: 160px;
+  transition: transform 1s ease-in 1s;
+}
+
+.illustration .bluecloud2 {
+  position: absolute;
+  width: 237px;
+  top: 260px;
+  left: 470px;
+  margin-left: 160px;
+  transition: transform 1s ease-in 1s;
+}
+
+.illustration img {
+  position: absolute;
+  width: 222.75px;
+  left: 414px;
+  top: 23px;
+  margin-left: 160px;
+  transition: transform 1s ease-in 1s;
+}
+
+@media screen and (max-width: 1024px) {
+  #form .checkbox label {
+    width: 370px;
+  }
+  #form .text,
+  #form .form,
+  #form .register {
+    width: 654px;
+  }
+
+  #form h1 {
+    /*width: 408px;*/
+    font-size: 45px;
+    margin-bottom: 71px;
+  }
+
+  #form .text_1 {
+    width: 592px;
+    font-size: 30px;
+    margin-bottom: 71px;
+  }
+
+  #form .text .text_2 {
+    font-size: 20px;
+    width: 480px;
+    margin-top: 71px;
+  }
+
+  #form .text_3 {
+    margin-top: 58px;
+  }
+
+  #form .text .btn_2 {
+    width: 257px;
+    height: 56px;
+    font-size: 24px;
+  }
+
+  /* #form .form .info;
+
+    {
+    margin-left: 0;
+  } */
+
+  /**************  column *************/
+  .input-setting {
+    width: 370px;
+    margin: 0 auto;
+  }
+  #medlem .column {
+    clear: left;
+    width: 379px;
+    height: 119;
+    margin-bottom: 15px;
+  }
+
+  #medlem .column input {
+    height: 42px;
+    width: 370px;
+  }
+
+  #medlem .text_3 {
+    margin-top: 31px;
+  }
+
+  #form .checkbox label {
+    height: 64px;
+    margin-bottom: 11px;
+  }
+
+  #form .form button {
+    font-size: 14px;
+    width: 162px;
+    height: 42px;
+  }
+
+  /******************  finish registering  *************/
+  #register .illustration {
+    width: 654px;
+    height: 563px;
+    position: relative;
+    margin-left: 0;
+  }
+
+  #register .illustration .sun {
+    position: absolute;
+    width: 229px;
+    left: 75px;
+    top: 31px;
+    margin-left: 0;
+  }
+
+  #register .illustration .cloud1 {
+    position: absolute;
+    width: 160px;
+    left: 25px;
+    top: 121px;
+    margin-left: 0;
+  }
+
+  #register .illustration .cloud2 {
+    position: absolute;
+    width: 160px;
+    height: auto;
+    top: 203px;
+    left: 144px;
+    margin-left: 0;
+  }
+
+  #register .illustration .bluecloud1 {
+    position: absolute;
+    width: 260px;
+    top: 300px;
+    left: 161px;
+    margin-left: 0;
+  }
+
+  #register .illustration .bluecloud2 {
+    position: absolute;
+    width: 165px;
+    top: 424px;
+    left: 374px;
+    margin-left: 0;
+  }
+
+  #register .illustration img {
+    position: absolute;
+    width: 202px;
+    left: 296px;
+    top: 179px;
+    margin-left: 0;
+  }
+
+  .ingress {
+    grid-column: 3/10;
+  }
+  .intro-tekst {
+    width: 654px;
+  }
+  .bok-illustrasjon {
+    width: 390px;
+  }
+}
+
+/******************  finish registering  end **********/
+
+@media screen and (max-width: 654px) {
+  #form .text,
+  #form .form,
+  #form .register {
+    width: 100vw;
+  }
+
+  #form h1 {
+    font-size: 7vw;
+    margin-bottom: 11vw;
+    /*width: 62.4vw;*/
+  }
+
+  #form .text_1 {
+    width: 90vw;
+    font-size: 4.6vw;
+    margin-bottom: 11vw;
+  }
+
+  #form .text .text_2 {
+    font-size: 3vw;
+    width: 73.4vw;
+    margin-top: 11vw;
+  }
+
+  #form .text_3 {
+    margin-top: 8.9vw;
+  }
+
+  /*#form .text .btn_2 {
+    width: 39.2vw;
+    height: 8.5vw;
+    font-size: 3.66vw;
+  }*/
+  #form .text .btn_2 {
+    width: 257px;
+    height: 56px;
+    font-size: 19.2px;
+    margin: 0 auto;
+    display: block;
+    padding: 18px 0;
+    border: none;
+    border-radius: 52px;
+    font-weight: 700;
+    letter-spacing: 0.02rem;
+    text-transform: uppercase;
+  }
+
+  /**************  column ************/
+  #medlem .column {
+    clear: left;
+    width: 50vw;
+    height: 18.19vw;
+    margin-bottom: 2.3vw;
+  }
+
+  #medlem .column input {
+    height: 6.42vw;
+    width: 50vw;
+  }
+
+  #medlem .text_3 {
+    margin-top: 4.7vw;
+  }
+
+  #form .checkbox label {
+    width: 50vw;
+    height: 9.8vw;
+    margin-bottom: 1.7vw;
+  }
+
+  #form .form button {
+    font-size: 2.14vw;
+    width: 24.8vw;
+    height: 6.42vw;
+  }
+
+  /******************  finish registering  *************/
+  #register .illustration {
+    width: 100vw;
+    height: 104.4vw;
+    position: relative;
+    margin-left: 0;
+  }
+
+  #register .illustration .sun {
+    position: absolute;
+    width: 35vw;
+    left: 11.46vw;
+    top: 11.77vw;
+    margin-left: 0;
+  }
+
+  #register .illustration .cloud1 {
+    position: absolute;
+    width: 24.46vw;
+    left: 3.82vw;
+    top: 25.53vw;
+    margin-left: 0;
+  }
+
+  #register .illustration .cloud2 {
+    position: absolute;
+    width: 24.46vw;
+    height: auto;
+    top: 38.07vw;
+    left: 22vw;
+    margin-left: 0;
+  }
+
+  #register .illustration .bluecloud1 {
+    position: absolute;
+    width: 39.75vw;
+    top: 53vw;
+    left: 24.61vw;
+    margin-left: 0;
+  }
+
+  #register .illustration .bluecloud2 {
+    position: absolute;
+    width: 25.23vw;
+    top: 71.87vw;
+    left: 57.2vw;
+    margin-left: 0;
+  }
+
+  #register .illustration img {
+    position: absolute;
+    width: 31vw;
+    left: 45.25vw;
+    top: 34.4vw;
+    margin-left: 0;
+  }
+
+  /******************  finish registering  end **********/
+}
+
+/************ form when width is maximum 500px ****/
+@media screen and (max-width: 500px) {
+  /* body {
+    width: 100vw;
+  } */
+
+  #form .text,
+  #form .form,
+  #form .register {
+    width: 92vw;
+    margin-top: 14vw;
+  }
+
+  #form h1 {
+    width: auto;
+    font-size: 8.8vw;
+    margin-bottom: 14.1vw;
+  }
+
+  #form .text_1 {
+    width: 88vw;
+    font-size: 4.53vw;
+    margin-bottom: 9.1vw;
+    line-height: 7vw;
+  }
+
+  #form .text .text_2 {
+    width: 81vw;
+    font-size: 4.13vw;
+    margin-bottom: 20.21vw;
+    line-height: 6.4vw;
+  }
+
+  /****#form .text .btn_2 {
+    width: 54.4vw;
+    height: 12.2vw;
+    border-radius: 13.8vw;
+    font-size: 5vw;
+    margin-bottom: 14.1vw;
+  }***/
+
+  .img_guider {
+    display: none;
+  }
+
+  /******** form ****************/
+  #form .form .info {
+    margin-left: 0;
+  }
+  #form .input-setting {
+    width: 50vw;
+    margin: 0 auto;
+  }
+  #medlem .column {
+    clear: left;
+    height: 20vw;
+    margin: 0;
+  }
+
+  #medlem .column input {
+    width: 6 0vw;
+    height: 7.4vw;
+    font-size: 2.7vw;
+  }
+
+  #medlem .column label {
+    font-size: 0.8rem;
+  }
+
+  #medlem .column span {
+    font-size: 2.4vw;
+  }
+  #medlem span {
+    font-size: 2.4vw;
+    margin-top: 0;
+  }
+
+  #form .checkbox label {
+    clear: both;
+    line-height: 16px;
+    padding: 0;
+    display: block;
+    width: 45vw;
+    height: 14vw;
+    margin: 0 auto;
+    font-size: 2.7vw;
+    margin-bottom: 5.3vw;
+  }
+
+  #form .form button {
+    width: 54vw;
+    height: 12.2vw;
+    border-radius: 14vw;
+    font-size: 5vw;
+    margin-top: 80px;
+    margin-bottom: 0;
+  }
+
+  #form .text_3 {
+    font-size: 3.2vw;
+  }
+
+  /******************  finish registering  *************/
+  #register .illustration {
+    width: 92vw;
+    height: 108.5vw;
+    position: relative;
+  }
+
+  #register .illustration .sun {
+    position: absolute;
+    width: 39vw;
+    left: 8.2vw;
+    top: 11.2vw;
+    margin-left: 0;
+  }
+
+  #register .illustration .cloud1 {
+    position: absolute;
+    width: 27.43vw;
+    height: auto;
+    top: 27.46vw;
+    margin-left: 0;
+  }
+
+  #register .illustration .cloud2 {
+    position: absolute;
+    width: 27.43vw;
+    height: auto;
+    top: 41.3vw;
+    left: 20vw;
+    margin-left: 0;
+  }
+
+  #register .illustration .bluecloud1 {
+    position: absolute;
+    width: 44.57vw;
+    top: 57.6vw;
+    left: 28.27vw;
+    margin-left: 0;
+  }
+
+  #register .illustration .bluecloud2 {
+    position: absolute;
+    width: 28.27vw;
+    top: 79vw;
+    left: 59vw;
+    margin-left: 0;
+  }
+
+  #register .illustration img {
+    position: absolute;
+    width: 34.7vw;
+    left: 45.9vw;
+    top: 36.5vw;
+    margin-left: 0;
+  }
+}
+
+.mobilh1 {
+  display: none;
+}
+
+/* ----------- MEDIA QUERIES --------------- */
+@media screen and (max-width: 1800px) {
+  #hvem-vi-er h2 {
+    position: relative;
+  }
+
+  #showcase {
+    height: 80vw;
+    background-position: 75%;
+  }
+  #showcase h1 {
+    margin-top: 3vw;
+  }
+  h1 {
+    font-size: 3.75vw;
+  }
+  #showcase .intro-tekst {
+    font-size: 1.83vw;
+    width: 52.8vw;
+  }
+  /************** hvem er vi ***********/
+  #hvem-vi-er h2 {
+    font-size: 3.5vw;
+  }
+  #hvem-vi-er p {
+    font-size: 1.7vw;
+    width: 55vw;
+    margin-top: 0;
+  }
+  /************** hva gjør vi ***********/
+  #hva-vi-gjør h2 {
+    font-size: 3.5vw;
+  }
+  #hva-vi-gjør p {
+    font-size: 16px;
+    width: 20.1vw;
+  }
+  .icon {
+    width: 8.5vw;
+  }
+
+  #bli-medlem-footer p {
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 56.67vw;
+    font-size: 1.7vw;
+  }
+
+  #bli-medlem-footer button {
+    margin: 0 auto;
+    display: block;
+    color: var(--black);
+    background: #fff;
+    padding: 18px 0;
+    border: none;
+    width: 300px;
+    border-radius: 52px;
+    font-weight: 700;
+    font-size: 1.8rem;
+    letter-spacing: 0.02rem;
+    text-transform: uppercase;
+    margin-top: 60px;
+    margin-bottom: 100px;
+  }
+  #bli-medlem-footer p {
+    font-size: 20px;
+  }
+  #bli-medlem-footer h4 {
+    font-size: 20px;
+  }
+  #footer h4,
+  #footer p {
+    font-size: 16px;
+  }
+  #footer .nyhetsbrev input {
+    width: 13.3vw;
+    height: 4vw;
+  }
+  #footer .nyhetsbrev button {
+    width: 6.4vw;
+    font-size: 16px;
+    height: 4vw;
+  }
+  .social_icon img {
+    width: 4.2vw;
+  }
+  p {
+    font-size: 16px;
+  }
+  .intro-tekst {
+    width: 42.5vw;
+    font-size: 1.7vw;
+  }
+  h2 {
+    font-size: 1.7vw;
+  }
+  /***** 1800 kjøtt****/
+  .biff,
+  .broccoli,
+  .carrot {
+    width: 10vw;
+  }
+  /********* 1800 kaffe****/
+  .bønnegraf {
+    width: 50vw;
+  }
+}
+@media screen and (max-width: 1200px) {
+  /********* heading *******/
+  #showcase h1 {
+    margin-top: 10vh;
+  }
+  #showcase {
+    height: 60vh;
+    background-position: 70%;
+  }
+  h1 {
+    font-size: 36px;
+  }
+  /* header .button_1{
+  } */
+  #showcase .intro-tekst {
+    font-size: 20px;
+    width: 44vw;
+  }
+  /****** menu***********************/
+  header .branding {
+    margin: 10px 15px 10px 15px;
+    float: left;
+    width: 50px;
+    height: 50px;
+  }
+
+  .button_1 {
+    display: none;
+  }
+
+  label #btn {
+    display: block;
+  }
+
+  nav {
+    height: 70px;
+  }
+
+  ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: var(--secondaryGreen);
+    top: 70px;
+    left: -100%;
+    text-align: center;
+    transition: all 0.5s;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+
+  nav ul li a {
+    font-size: 20px;
+  }
+
+  #check:checked ~ ul {
+    left: 0;
+  }
+
+  #check:checked ~ label #btn {
+    display: none;
+  }
+
+  #check:checked ~ label #cancel {
+    display: block;
+  }
+  /************** hvem er vi ***********/
+  #hvem-vi-er h2,
+  #hva-vi-gjør h2 {
+    font-size: 36px;
+  }
+  #hvem-vi-er p {
+    font-size: 20px;
+    width: 55vw;
+  }
+  /**********hva gjør vi********/
+  /* ---------- HVA VI GJØR SEKSJON ----------- */
+  .icon {
+    width: 180px;
+  }
+
+  #hva-vi-gjør {
+    margin: 0;
+    padding-top: 20px;
+  }
+
+  #hva-vi-gjør .container-1 {
+    margin: 0;
+  }
+
+  #hva-vi-gjør .row {
+    display: block;
+  }
+
+  #hva-vi-gjør .row .content {
+    height: auto;
+    width: 100%;
+  }
+
+  #hva-vi-gjør .imgBox {
+    float: none;
+    text-align: center;
+    margin: 0;
+  }
+
+  #hva-vi-gjør h4 {
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+
+  #hva-vi-gjør p {
+    font-size: 20px;
+    width: 550px;
+    margin: 0 auto;
+    margin-bottom: 42px;
+  }
+
+  #hva-vi-gjør .homepage-heading {
+    font-size: 32px;
+    margin: 0;
+    margin-left: 14.5%;
+    margin-top: 100px;
+    margin-bottom: 45px;
+    position: relative;
+  }
+
+  #myter .myter-container {
+    display: block;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  #myter .homepage-heading {
+    font-size: 32px;
+    margin: 0;
+    margin-left: 14.5%;
+    margin-top: 100px;
+  }
+
+  #myter .homepage-small-heading {
+    text-align: center;
+    font-size: 20px;
+    margin-left: 15px;
+    margin-top: 30px;
+  }
+
+  #bli-medlem-footer p {
+    font-size: 20px;
+    width: 654px;
+    margin: auto;
+    margin-top: 100px;
+  }
+
+  #bli-medlem-footer button {
+    width: 257px;
+    height: 56px;
+    font-size: 1.2rem;
+  }
+  #bli-medlem-footer .lite-info {
+    width: 56.7vw;
+    margin: 0 auto;
+    margin-top: 100px;
+    font-size: 20px;
+  }
+
+  #bli-medlem-footer p,
+  p {
+    font-size: 16px;
+  }
+
+  #footer .container div:nth-child(1),
+  #footer .container div:nth-child(2),
+  #footer .container div:nth-child(3) {
+    width: 56.7vw;
+    margin: auto;
+    margin-bottom: 40px;
+  }
+  #footer .container div:nth-child(1) {
+    margin-top: 100px;
+  }
+
+  #footer .container div:nth-child(3) {
+    padding: 0;
+  }
+
+  #footer .container {
+    display: block;
+  }
+
+  #footer .nyhetsbrev input {
+    width: 195px;
+    height: 64px;
+  }
+
+  #footer .nyhetsbrev button {
+    height: 64px;
+  }
+
+  .social_icon {
+    margin-left: 1px;
+  }
+
+  .social_icon img {
+    width: 70px;
+  }
+
+  .kontakt p {
+    padding-bottom: 30px;
+  }
+  #footer .nyhetsbrev input {
+    width: 200px;
+    height: 60px;
+  }
+  #footer .nyhetsbrev button {
+    width: 96px;
+    font-size: 16px;
+    height: 60px;
+  }
+  .social_icon img {
+    width: 64px;
+  }
+  #bli-medlem-footer .lite-info {
+    width: 75vw;
+  }
+  /******* artikler *****/
+  .ingress {
+    grid-column: 3/10;
+  }
+  h2 {
+    width: 63vw;
+    font-size: 23px;
+  }
+  .intro-tekst {
+    width: 64vw;
+    font-size: 25px;
+  }
+  /******* 1200 bok ****/
+  .paragraph {
+    /*grid-column-start: 3;*/
+    grid-column-end: 12;
+  }
+  .ku2 {
+    display: none;
+  }
+  .list {
+    margin-left: 0;
+  }
+  .traktor,
+  .ku1 {
+    width: 15vw;
+  }
+  .ku1 {
+    margin-top: 150vh;
+  }
+
+  p,
+  .grønnskatt img,
+  .kraftfor,
+  .sau,
+  .storfe,
+  .utslipp,
+  .bønnegraf,
+  .vanngraf,
+  .klimagraf {
+    width: 64vw;
+    grid-column: 3/10;
+  }
+  /****** kjøtt *********/
+  .fairtrade-paragraph p {
+    width: 60vw;
+  }
+  .fair-logo {
+    padding-right: 4vw;
+    width: 20vw;
+  }
+  .utslipp {
+    grid-column: 3/10;
+    width: 64vw;
+  }
+  .tips-paragraph {
+    grid-column: 4/10;
+    width: 64vw;
+  }
+  .broccoli {
+    margin-top: 50px;
+  }
+
+  .kafe {
+    grid-column-start: 3;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  #hva-vi-gjør .homepage-heading,
+  #myter .homepage-heading,
+  #hvem-vi-er .homepage-heading {
+    margin-left: 10%;
+  }
+  #hva-vi-gjør p,
+  #bli-medlem-footer p {
+    width: 80vw;
+    margin: 0 auto;
+    margin-bottom: 42px;
+  }
+  #bli-medlem-footer p {
+    margin-top: 100px;
+  }
+  #footer .container div:nth-child(1),
+  #footer .container div:nth-child(2),
+  #footer .container div:nth-child(3) {
+    width: 80vw;
+    margin: auto;
+    margin-bottom: 40px;
+  }
+  #footer .container div:nth-child(1) {
+    margin-top: 100px;
+  }
+  .main-grid {
+    display: block;
+  }
+
+  .fairtrade-container,
+  .tips {
+    display: block;
+  }
+  .fair-logo {
+    width: 50vw;
+    margin-bottom: 20px;
+  }
+  .kjøtt-illustrasjon,
+  .kaffe-illustrasjon,
+  .bok-illustrasjon,
+  .tips {
+    width: 80vw;
+    margin: 0 auto;
+  }
+  .bok-headline,
+  .kjøtt-headline,
+  .kaffe-headline {
+    padding-left: 0;
+    padding-top: 0;
+  }
+  .intro-tekst,
+  p,
+  .grønnskatt img,
+  .kraftfor,
+  .sau,
+  .storfe,
+  .utslipp,
+  .bønnegraf,
+  .vanngraf,
+  .klimagraf {
+    width: 80vw;
+  }
+  .ku1,
+  .ku2 {
+    display: none;
+  }
+  .traktor {
+    width: 100px;
+  }
+  .traktor {
+    margin-left: -103vw;
+    position: absolute;
+    margin-top: 30px;
+    left: 110%;
+    right: 50%;
+  }
+  .ku1,
+  .ku2,
+  .biff,
+  .broccoli,
+  .carrot {
+    display: none;
+  }
+  .ku1-mobil,
+  .ku2-mobil,
+  .mobil-biff,
+  .mobil-broccoli,
+  .mobil-carrot {
+    display: block;
+    width: auto;
+  }
+  .mobil-biff {
+    display: inline-block;
+    /* float: right; */
+    margin-right: 100px;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  /* ------- SHOWCASE IMAGE TEXT AND NAVIGATION -------- */
+
+  .sticky {
+    position: absolute !important;
+    top: 0;
+    width: 100vw;
+  }
+
+  .content-padding {
+    padding-top: 80px;
+  }
+
+  .deskh1 {
+    display: none;
+  }
+
+  .mobilh1 {
+    display: block;
+  }
+
+  .showcase-intro {
+    margin: 0;
+    width: auto;
+  }
+
+  #showcase {
+    background: url("/img/ny_main_mobil-13.svg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 110vh;
+  }
+
+  #showcase h1 {
+    font-size: 2rem;
+    margin-left: 15px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+
+  #showcase .intro-tekst {
+    font-size: 1.15rem;
+    margin-left: 15px;
+    width: 60%;
+    margin-top: 0;
+  }
+
+  /* ----------- HVEM VI ER SEKSJON ----------- */
+
+  #hvem-vi-er {
+    padding-bottom: 20px;
+  }
+
+  #hvem-vi-er h2 {
+    margin: 0;
+    margin-left: 15px;
+    font-size: 1.8rem;
+  }
+
+  #hvem-vi-er p {
+    margin: 0;
+    margin-top: 50px;
+    margin-left: 15px;
+    width: auto;
+    font-size: 1.125rem;
+  }
+
+  /* ---------- HVA VI GJØR SEKSJON ----------- */
+
+  #hva-vi-gjør {
+    margin: 0;
+    padding-top: 20px;
+  }
+
+  #hva-vi-gjør .container-1 {
+    margin: 0;
+  }
+
+  #hva-vi-gjør .row {
+    display: block;
+  }
+
+  #hva-vi-gjør .row .content {
+    height: auto;
+    width: 100%;
+  }
+
+  #hva-vi-gjør .imgBox {
+    float: none;
+    text-align: center;
+    margin: 0;
+  }
+
+  #hva-vi-gjør h4 {
+    text-align: center;
+  }
+
+  #hva-vi-gjør p {
+    margin-right: 15px;
+    margin-left: 30px;
+  }
+
+  #hva-vi-gjør .homepage-heading {
+    font-size: 1.8rem;
+    margin: 0;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  p {
+    width: auto;
+  }
+
+  #myter .myter-container {
+    display: block;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  #myter .homepage-heading {
+    font-size: 1.8rem;
+    margin: 0;
+    margin-left: 15px;
+    margin-top: 30px;
+  }
+
+  #myter .homepage-small-heading {
+    text-align: left;
+    font-size: 0.7rem;
+    margin-left: 15px;
+    margin-top: 30px;
+  }
+}
+.fairtrade-paragraph p {
+  width: auto;
+}
+
+/* ---- LAST FOOTER GRAY AREA ----- */
+
+@media screen and (max-width: 500px) {
+  @media screen and (max-width: 750px) {
+    #hva-vi-gjør .homepage-heading,
+    #myter .homepage-heading,
+    #hvem-vi-er .homepage-heading {
+      margin-left: 15px;
+    }
+
+    #footer .container div:nth-child(1) {
+      grid-column: 2/5;
+      grid-row: 1;
+      margin-top: 80px;
+    }
+
+    #footer h4 {
+      font-size: 1.25em;
+    }
+    #footer .container div:nth-child(1),
+    #footer .container div:nth-child(2),
+    #footer .container div:nth-child(3) {
+      width: auto;
+      margin-bottom: 80px;
+    }
+    #bli-medlem-footer .lite-info {
+      width: 85%;
+      margin-left: 15px;
+      margin-top: 30px;
+    }
+
+    #bli-medlem-footer p,
+    p {
+      font-size: 16px;
+    }
+
+    /* #footer .container div:nth-child(1),
+  #footer .container div:nth-child(2),
+  #footer .container div:nth-child(3) {
+    width: auto;
+    margin-top: 40px;
+  } */
+
+    #footer .container div:nth-child(3) {
+      padding: 0;
+      margin: 0;
+    }
+
+    #footer .container {
+      display: block;
+    }
+
+    #footer .nyhetsbrev input {
+      width: 195px;
+      height: 64px;
+    }
+
+    #footer .nyhetsbrev button {
+      height: 64px;
+    }
+
+    .social_icon {
+      margin-left: 1px;
+    }
+
+    .social_icon img {
+      width: 70px;
+    }
+
+    .kontakt p {
+      padding-bottom: 30px;
+    }
+
+    .copyright {
+      padding: 15px;
+      display: block;
+    }
+
+    .copyright a {
+      font-size: 0.75rem;
+      font-family: "museo-sans";
+      font-weight: 300;
+    }
+
+    .LOGONAVN {
+      float: right;
+
+      /* .lite-info {
+    max-width: 400px;
+    margin-left: 20px;
+    line-height: 1.7rem;
+  } */
+
+      /* #footer .nyhetsbrev {
+    margin-left: 20px;
+  } */
+
+      /* #footer .nyhetsbrev input {
+    width: 70%;
+  } */
+    }
+
+    #footer .kontakt {
+      max-width: 400px;
+      margin-left: 20px;
+      line-height: 1.7rem;
+    }
+
+    @media screen and (max-width: 500px) {
+      .main-grid {
+        display: block;
+        width: auto;
+        height: auto;
+        margin: 0 15px 0 15px;
+      }
+
+      .turn-background {
+        width: 100%;
+        padding-bottom: 30px;
+        /* padding: 30px 0 30px 0; */
+      }
+
+      .intro-tekst {
+        font-size: 1.125rem;
+      }
+
+      .liten-tekst {
+        font-size: 0.75rem;
+      }
+
+      .artikkel-heading {
+        margin: 0;
+      }
+
+      .artikkel-heading h2 {
+        font-size: 1.4rem;
+        /* padding-top: 80px; */
+      }
+
+      .artikkel-heading1 {
+        margin: 0;
+        padding-top: 30px;
+      }
+
+      .artikkel-heading1 h2 {
+        font-size: 1.4rem;
+        /* padding-top: 80px; */
+      }
+
+      .paragraph {
+        margin-bottom: 40px;
+      }
+
+      .paragraph h4 {
+        font-size: 1.03rem;
+        margin: 2rem 0 2rem 0;
+      }
+
+      .paragraph p {
+        font-size: 0.9688rem;
+      }
+
+      .paragraph h3 {
+        font-size: 1.125rem;
+      }
+
+      /* .list {
+    display: none;
+  } */
+
+      .tips {
+        display: block;
+        margin-left: 15px;
+        margin-right: 15px;
+      }
+
+      .tips h2 {
+        font-size: 1.4rem;
+      }
+
+      .list {
+        margin-left: 0;
+        margin-right: 15px;
+        padding-bottom: 30px;
+      }
+
+      .bok-illustrasjon {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+        padding-top: 60px;
+      }
+
+      .bok-headline,
+      .kjøtt-headline,
+      .kaffe-headline {
+        padding-top: 30px;
+      }
+
+      .bok-headline h1,
+      .kjøtt-headline h1,
+      .kaffe-headline h1 {
+        font-size: 2.06rem;
+      }
+
+      .kaffe-illustrasjon {
+        text-align: center;
+        width: 100%;
+      }
+
+      .fairtrade-container {
+        /* display: block;
+    padding: 0;
+    width: 85%; */
+        padding: 0;
+        display: block;
+      }
+
+      .fair-logo {
+        text-align: center;
+        width: 200px;
+        padding-top: 40px;
+      }
+
+      .fairtrade-paragraph {
+        margin-left: 15px;
+      }
+
+      .fairtrade-paragraph h2 {
+        margin-top: 30px;
+        font-size: 1.4rem;
+      }
+
+      /* KJØTT */
+
+      .kjøtt-illustrasjon,
+      .kaffe-illustrasjon {
+        /* text-align: center; */
+        padding: 0;
+        margin: 0;
+        margin-top: 50px;
+        margin-bottom: 40px;
+        width: 100%;
+      }
+
+      .kjøtt-headline,
+      .kaffe-headline {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+      }
+
+      .traktor,
+      .ku1,
+      .ku2,
+      .biff,
+      .carrot,
+      .broccoli {
+        display: none;
+      }
+
+      .kraftfor,
+      .storfe,
+      .sau,
+      .vanngraf,
+      .bønnegraf,
+      .klimagraf,
+      .utslipp {
+        width: 100%;
+      }
+
+      .myte {
+        padding-top: 80px;
+        margin: 0;
+      }
+
+      .myte1 {
+        padding-top: 0;
+        margin: 0;
+      }
+
+      .myte1 h2 {
+        margin: 0 0 10px 0;
+        font-size: 1.4rem;
+        font-weight: 300;
+        font-family: "museo-sans";
+      }
+
+      .myte h2 {
+        font-size: 1.4rem;
+        margin: 0 0 10px 0;
+      }
+
+      .mobil-traktor {
+        margin-left: 130px;
+        width: 150px;
+      }
+
+      .mobil-traktor,
+      .ku1-mobil,
+      .ku2-mobil,
+      .mobil-biff,
+      .mobil-broccoli,
+      .mobil-carrot,
+      .mobil-storfe,
+      .mobil-kraftfor,
+      .mobil-sau {
+        display: block;
+        width: auto;
+      }
+      .grønnskatt img {
+        width: 90vw;
+      }
+
+      .mobil-traktor {
+        margin-left: 130px;
+        width: 150px;
+      }
+
+      .kraftfor {
+        display: none;
+      }
+
+      .sau {
+        display: none;
+      }
+
+      .storfe {
+        display: none;
+      }
+
+      .vanngraf,
+      .klimagraf,
+      .bønnegraf {
+        display: block;
+      }
+
+      .mobil-bønnegraf {
+        padding-bottom: 50px;
+      }
+
+      .utslipp {
+        display: block;
+      }
+
+      .utslipp-img {
+        text-align: center;
+      }
+
+      .mobil-utslipp-1 {
+        margin-bottom: 25px;
+      }
+
+      .mobil-utslipp-2 {
+        margin-bottom: 25px;
+      }
+
+      .mobil-utslipp-3 {
+        margin-bottom: 40px;
+      }
+    }
+  }
+}
