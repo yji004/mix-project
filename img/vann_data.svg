@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="947" height="464.817" viewBox="0 0 947 464.817">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="20" height="464.817" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect width="725.55" height="453.515" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <rect width="809" height="453.265" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-4">
+      <rect width="491.545" height="453.265" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="vann_data" transform="translate(-11 -3.658)">
+    <line id="直线_8" data-name="直线 8" x2="725.75" transform="translate(37.512 461.932)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="直线_9" data-name="直线 9" y1="11.33" x2="0.012" transform="translate(37.5 450.601)" fill="none" stroke="#333" stroke-linecap="square" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="直线_10" data-name="直线 10" y1="11.332" transform="translate(762.767 450.601)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="1"/>
+    <g id="重复网格_67" data-name="重复网格 67" transform="translate(11 3.658)" clip-path="url(#clip-path)">
+      <g transform="translate(-11 -3.658)">
+        <text id="_0_0" data-name="0,0" transform="translate(11 465.476)" fill="#333" font-size="14" font-family="Helvetica"><tspan x="0" y="0">0,0</tspan></text>
+        <text id="_0_5" data-name="0,5" transform="translate(11 410.658)" fill="#333" font-size="14" font-family="Helvetica"><tspan x="0" y="0">0,5</tspan></text>
+        <text id="_1_0" data-name="1,0" transform="translate(11 352.158)" fill="#333" font-size="14" font-family="Helvetica"><tspan x="0" y="0">1,0</tspan></text>
+        <text id="_1_5" data-name="1,5" transform="translate(11 295.658)" fill="#333" font-size="14" font-family="Helvetica"><tspan x="0" y="0">1,5</tspan></text>
+        <text id="_2_0" data-name="2,0" transform="translate(11 238.658)" fill="#333" font-size="14" font-family="Helvetica"><tspan x="0" y="0">2,0</tspan></text>
+        <text id="_2_5" data-name="2,5" transform="translate(11 182.658)" fill="#333" font-size="14" font-family="Helvetica"><tspan x="0" y="0">2,5</tspan></text>
+        <text id="_3_0" data-name="3,0" transform="translate(11 125.658)" fill="#333" font-size="14" font-family="Helvetica"><tspan x="0" y="0">3,0</tspan></text>
+        <text id="_3_5" data-name="3,5" transform="translate(11 68.658)" fill="#333" font-size="14" font-family="Helvetica"><tspan x="0" y="0">3,5</tspan></text>
+        <text id="_4_0" data-name="4,0" transform="translate(11 14.658)" fill="#333" font-size="14" font-family="Helvetica"><tspan x="0" y="0">4,0</tspan></text>
+      </g>
+    </g>
+    <line id="直线_20" data-name="直线 20" x2="725.55" transform="translate(37.512 8.667)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="1" opacity="0.1"/>
+    <g id="重复网格_66" data-name="重复网格 66" transform="translate(37.512 8.667)" clip-path="url(#clip-path-2)">
+      <g transform="translate(-37.512 -8.667)">
+        <line id="直线_11" data-name="直线 11" y1="453.265" transform="translate(37.512 8.667)" fill="none"/>
+        <path id="路径_19" data-name="路径 19" d="M0,0H725.55" transform="translate(37.512 461.932)" fill="none" stroke="#333" stroke-width="0.5" opacity="0.2"/>
+        <line id="直线_13" data-name="直线 13" x2="725.55" transform="translate(37.512 405.274)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="1" opacity="0.1"/>
+        <line id="直线_14" data-name="直线 14" x2="725.55" transform="translate(37.512 348.616)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="1" opacity="0.1"/>
+        <line id="直线_15" data-name="直线 15" x2="725.55" transform="translate(37.512 291.958)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="1" opacity="0.1"/>
+        <line id="直线_16" data-name="直线 16" x2="725.55" transform="translate(37.512 235.3)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="1" opacity="0.1"/>
+        <line id="直线_17" data-name="直线 17" x2="725.55" transform="translate(37.512 178.642)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="1" opacity="0.1"/>
+        <line id="直线_18" data-name="直线 18" x2="725.55" transform="translate(37.512 121.984)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="1" opacity="0.1"/>
+        <line id="直线_19" data-name="直线 19" x2="725.55" transform="translate(37.512 65.325)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="1" opacity="0.1"/>
+        <line id="直线_21" data-name="直线 21" x2="725.55" transform="translate(37.512 433.603)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="1" opacity="0.1"/>
+        <line id="直线_22" data-name="直线 22" x2="725.55" transform="translate(37.512 376.945)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="1" opacity="0.1"/>
+        <line id="直线_23" data-name="直线 23" x2="725.55" transform="translate(37.512 320.287)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="1" opacity="0.1"/>
+        <line id="直线_24" data-name="直线 24" x2="725.55" transform="translate(37.512 263.629)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="1" opacity="0.1"/>
+        <line id="直线_25" data-name="直线 25" x2="725.55" transform="translate(37.512 206.971)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="1" opacity="0.1"/>
+        <line id="直线_26" data-name="直线 26" x2="725.55" transform="translate(37.512 150.313)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="1" opacity="0.1"/>
+        <line id="直线_27" data-name="直线 27" x2="725.55" transform="translate(37.512 93.654)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="1" opacity="0.1"/>
+        <line id="直线_28" data-name="直线 28" x2="725.55" transform="translate(37.512 36.996)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="1" opacity="0.1"/>
+      </g>
+    </g>
+    <g id="重复网格_64" data-name="重复网格 64" transform="translate(149 8.667)" clip-path="url(#clip-path-3)">
+      <g transform="translate(-149 -8.667)">
+        <g id="重复网格_68" data-name="重复网格 68" transform="translate(149 8.667)" clip-path="url(#clip-path-4)">
+          <g transform="translate(-149 -8.667)">
+            <rect id="矩形_51" data-name="矩形 51" width="77.546" height="453.265" transform="translate(563 8.667)" fill="#1a3a4b"/>
+            <rect id="矩形_53" data-name="矩形 53" width="77.546" height="362.612" transform="translate(356 99.32)" fill="#326581"/>
+            <rect id="矩形_55" data-name="矩形 55" width="77.546" height="305.954" transform="translate(149 155.978)" fill="#4d99c4"/>
+          </g>
+        </g>
+        <g id="组_59" data-name="组 59">
+          <rect id="矩形_50" data-name="矩形 50" width="51.52" height="32.122" transform="translate(805.274 121.658)" fill="#1a3a4b"/>
+          <rect id="矩形_52" data-name="矩形 52" width="51.52" height="32.122" transform="translate(805.274 187.659)" fill="#326581"/>
+          <rect id="矩形_54" data-name="矩形 54" width="51.52" height="32.122" transform="translate(805.274 252.659)" fill="#4d99c4"/>
+          <text id="Filterkaffe" transform="translate(885 141.658)" fill="#231815" font-size="14" font-family="Helvetica"><tspan x="0" y="0">Filterkaffe</tspan></text>
+          <text id="Kapselkaffe" transform="translate(885 208.658)" fill="#231815" font-size="14" font-family="Helvetica"><tspan x="0" y="0">Kapselkaffe</tspan></text>
+          <text id="Pulverkaffe" transform="translate(885 273.658)" fill="#231815" font-size="14" font-family="Helvetica"><tspan x="0" y="0">Pulverkaffe</tspan></text>
+          <path id="路径_18" data-name="路径 18" d="M410.921,45.265c-5.882-.091-10.593-5.412-10.546-11.912a1.2,1.2,0,0,0-.52-1.033.969.969,0,0,0-1.069,0,1.2,1.2,0,0,0-.52,1.033c-.056,7.8,5.6,14.185,12.655,14.294a1.2,1.2,0,0,0,0-2.383Zm0-45.265c-2.109,0-16.874,20.25-16.874,33.353,0,10.3,7.552,18.65,16.874,18.65s16.878-8.35,16.878-18.65C427.8,20.25,413.03,0,410.921,0Zm0,50.029c-8.121,0-14.765-7.743-14.765-17.272,0-11.316,13.71-29.9,14.765-29.9s14.765,18.582,14.765,29.9c0,9.53-6.644,17.272-14.765,17.272Zm0,0" transform="translate(420.381 36.866)" fill="#1a3a4b"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

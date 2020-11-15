@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="246.491" height="82.029" viewBox="0 0 246.491 82.029">
+  <g id="Group_377" data-name="Group 377" transform="translate(-4665.509 -2679.892)">
+    <rect id="Rectangle_347" data-name="Rectangle 347" width="25.491" height="18.029" transform="translate(4665.509 2679.892)" fill="#4da2d1"/>
+    <rect id="Rectangle_349" data-name="Rectangle 349" width="25.491" height="18.029" transform="translate(4665.509 2743.892)" fill="#df928e"/>
+    <rect id="Rectangle_351" data-name="Rectangle 351" width="25.491" height="18.029" transform="translate(4823.509 2711.892)" fill="#deeef6"/>
+    <rect id="Rectangle_348" data-name="Rectangle 348" width="25.491" height="18.029" transform="translate(4665.509 2711.892)" fill="#b5de8c"/>
+    <rect id="Rectangle_350" data-name="Rectangle 350" width="25.491" height="18.029" transform="translate(4823.509 2679.892)" fill="#ffeac0"/>
+    <text id="Coffee_supply" data-name="Coffee supply" transform="translate(4699 2692)" fill="#231815" font-size="10" font-family="MuseoSans-500, Museo Sans" font-weight="500"><tspan x="0" y="0">Coffee supply</tspan></text>
+    <text id="Material_and_production" data-name="Material and production" transform="translate(4699 2756)" fill="#231815" font-size="10" font-family="MuseoSans-500, Museo Sans" font-weight="500"><tspan x="0" y="0">Material and production</tspan></text>
+    <text id="Use" transform="translate(4857 2724)" fill="#231815" font-size="10" font-family="MuseoSans-500, Museo Sans" font-weight="500"><tspan x="0" y="0">Use</tspan></text>
+    <text id="Distribution" transform="translate(4699 2724)" fill="#231815" font-size="10" font-family="MuseoSans-500, Museo Sans" font-weight="500"><tspan x="0" y="0">Distribution</tspan></text>
+    <text id="Distribution-2" data-name="Distribution" transform="translate(4857 2692)" fill="#231815" font-size="10" font-family="MuseoSans-500, Museo Sans" font-weight="500"><tspan x="0" y="0">Distribution</tspan></text>
+  </g>
+</svg>

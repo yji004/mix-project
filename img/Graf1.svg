@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="808.625" height="460.43" viewBox="0 0 808.625 460.43">
+  <g id="Graf1" transform="translate(258.817 1238.222)">
+    <g id="Group_483" data-name="Group 483" transform="translate(-242.431 -1244.222)">
+      <g id="Group_474" data-name="Group 474" transform="translate(26.768 405.092)">
+        <g id="Group_471" data-name="Group 471" transform="translate(0 16.882)">
+          <text id="_0" data-name="0" transform="translate(7 9.701)" font-size="14" font-family="MuseoSans-500, Museo Sans" font-weight="500"><tspan x="-4.375" y="0">0</tspan></text>
+          <text id="_10" data-name="10" transform="translate(88.848 9.701)" font-size="14" font-family="MuseoSans-500, Museo Sans" font-weight="500"><tspan x="-7.798" y="0">10</tspan></text>
+          <text id="_20" data-name="20" transform="translate(172.32 9.701)" font-size="14" font-family="MuseoSans-500, Museo Sans" font-weight="500"><tspan x="-8.379" y="0">20</tspan></text>
+          <text id="_30" data-name="30" transform="translate(255.792 9.701)" font-size="14" font-family="MuseoSans-500, Museo Sans" font-weight="500"><tspan x="-8.344" y="0">30</tspan></text>
+          <text id="_40" data-name="40" transform="translate(339.109 9.701)" font-size="14" font-family="MuseoSans-500, Museo Sans" font-weight="500"><tspan x="-8.617" y="0">40</tspan></text>
+          <text id="_50" data-name="50" transform="translate(422.737 9.701)" font-size="14" font-family="MuseoSans-500, Museo Sans" font-weight="500"><tspan x="-8.316" y="0">50</tspan></text>
+          <text id="_60" data-name="60" transform="translate(506.053 9.701)" font-size="14" font-family="MuseoSans-500, Museo Sans" font-weight="500"><tspan x="-8.568" y="0">60</tspan></text>
+          <text id="_70" data-name="70" transform="translate(589.682 9.701)" font-size="14" font-family="MuseoSans-500, Museo Sans" font-weight="500"><tspan x="-8.078" y="0">70</tspan></text>
+          <text id="_80" data-name="80" transform="translate(672.998 9.701)" font-size="14" font-family="MuseoSans-500, Museo Sans" font-weight="500"><tspan x="-8.624" y="0">80</tspan></text>
+          <text id="_90" data-name="90" transform="translate(756.47 9.701)" font-size="14" font-family="MuseoSans-500, Museo Sans" font-weight="500"><tspan x="-8.568" y="0">90</tspan></text>
+        </g>
+        <line id="Line_961" data-name="Line 961" x2="751.251" transform="translate(4.625 10.039)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+        <g id="Group_473" data-name="Group 473" transform="translate(4.625)">
+          <g id="Group_472" data-name="Group 472">
+            <line id="Line_962" data-name="Line 962" y1="10.04" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+            <line id="Line_963" data-name="Line 963" y1="10.04" transform="translate(83.472)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+            <line id="Line_964" data-name="Line 964" y1="10.04" transform="translate(166.945)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+            <line id="Line_965" data-name="Line 965" y1="10.04" transform="translate(250.417)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+            <line id="Line_966" data-name="Line 966" y1="10.04" transform="translate(333.889)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+            <line id="Line_967" data-name="Line 967" y1="10.04" transform="translate(417.362)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+            <line id="Line_968" data-name="Line 968" y1="10.04" transform="translate(500.834)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+            <line id="Line_969" data-name="Line 969" y1="10.04" transform="translate(584.306)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+            <line id="Line_970" data-name="Line 970" y1="10.04" transform="translate(667.778)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+            <line id="Line_971" data-name="Line 971" y1="10.04" transform="translate(751.251)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+          </g>
+        </g>
+      </g>
+      <g id="Group_478" data-name="Group 478">
+        <g id="Group_475" data-name="Group 475">
+          <text id="_0-2" data-name="0" transform="translate(23.613 420.58)" font-size="14" font-family="MuseoSans-500, Museo Sans" font-weight="500"><tspan x="-8.75" y="0">0</tspan></text>
+          <text id="_5" data-name="5" transform="translate(23.613 340.265)" font-size="14" font-family="MuseoSans-500, Museo Sans" font-weight="500"><tspan x="-7.882" y="0">5</tspan></text>
+          <text id="_10-2" data-name="10" transform="translate(23.613 259.948)" font-size="14" font-family="MuseoSans-500, Museo Sans" font-weight="500"><tspan x="-15.596" y="0">10</tspan></text>
+          <text id="_15" data-name="15" transform="translate(23.613 179.632)" font-size="14" font-family="MuseoSans-500, Museo Sans" font-weight="500"><tspan x="-14.728" y="0">15</tspan></text>
+          <text id="_20-2" data-name="20" transform="translate(23.613 99.316)" font-size="14" font-family="MuseoSans-500, Museo Sans" font-weight="500"><tspan x="-16.758" y="0">20</tspan></text>
+          <text id="_25" data-name="25" transform="translate(23.613 19)" font-size="14" font-family="MuseoSans-500, Museo Sans" font-weight="500"><tspan x="-15.89" y="0">25</tspan></text>
+        </g>
+        <line id="Line_972" data-name="Line 972" y1="401.581" transform="translate(31.393 13.551)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+        <g id="Group_477" data-name="Group 477" transform="translate(31.393 13.551)">
+          <g id="Group_476" data-name="Group 476">
+            <line id="Line_973" data-name="Line 973" x2="18.781" transform="translate(0 401.58)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+            <line id="Line_974" data-name="Line 974" x2="18.781" transform="translate(0 321.264)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+            <line id="Line_975" data-name="Line 975" x2="18.781" transform="translate(0 240.948)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+            <line id="Line_976" data-name="Line 976" x2="18.781" transform="translate(0 160.632)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+            <line id="Line_977" data-name="Line 977" x2="18.781" transform="translate(0 80.316)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+            <line id="Line_978" data-name="Line 978" x2="18.781" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1"/>
+          </g>
+        </g>
+      </g>
+      <g id="Group_482" data-name="Group 482" transform="translate(34.602 69.794)">
+        <g id="Group_481" data-name="Group 481">
+          <g id="Group_480" data-name="Group 480">
+            <rect id="Rectangle_467" data-name="Rectangle 467" width="6.937" height="6.94" transform="translate(0 339.095)" fill="#4da2d1"/>
+            <rect id="Rectangle_468" data-name="Rectangle 468" width="6.937" height="6.94" transform="translate(42.988 328.654)" fill="#4da2d1"/>
+            <rect id="Rectangle_469" data-name="Rectangle 469" width="6.937" height="6.94" transform="translate(46.744 318.212)" fill="#4da2d1"/>
+            <rect id="Rectangle_470" data-name="Rectangle 470" width="6.937" height="6.94" transform="translate(61.352 316.606)" fill="#4da2d1"/>
+            <rect id="Rectangle_471" data-name="Rectangle 471" width="6.937" height="6.94" transform="translate(68.03 315.401)" fill="#4da2d1"/>
+            <rect id="Rectangle_472" data-name="Rectangle 472" width="6.937" height="6.94" transform="translate(93.906 313.795)" fill="#4da2d1"/>
+            <rect id="Rectangle_473" data-name="Rectangle 473" width="6.937" height="6.94" transform="translate(295.701 79.674)" fill="#4da2d1"/>
+            <rect id="Rectangle_474" data-name="Rectangle 474" width="6.937" height="6.94" transform="translate(558.638)" fill="#4da2d1"/>
+            <rect id="Rectangle_475" data-name="Rectangle 475" width="6.937" height="6.94" transform="translate(639.815 53.571)" fill="#4da2d1"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <text id="Korn" transform="translate(-209.465 -838.471)" font-size="13" font-family="MuseoSans-300, Museo Sans" font-weight="300"><tspan x="0" y="0">Korn</tspan></text>
+    <text id="Potet" transform="translate(-160.324 -831.178)" font-size="13" font-family="MuseoSans-300, Museo Sans" font-weight="300"><tspan x="0" y="0">Potet</tspan></text>
+    <text id="Melk" transform="translate(-192.175 -853.218)" font-size="13" font-family="MuseoSans-300, Museo Sans" font-weight="300"><tspan x="0" y="0">Melk</tspan></text>
+    <text id="Egg" transform="translate(-163.883 -862.253)" font-size="13" font-family="MuseoSans-300, Museo Sans" font-weight="300"><tspan x="0" y="0">Egg</tspan></text>
+    <text id="Gris" transform="translate(-139.333 -864.407)" font-size="13" font-family="MuseoSans-300, Museo Sans" font-weight="300"><tspan x="0" y="0">Gris</tspan></text>
+    <text id="Kylling" transform="translate(-103.658 -853.512)" font-size="13" font-family="MuseoSans-300, Museo Sans" font-weight="300"><tspan x="0" y="0">Kylling</tspan></text>
+    <text id="Storfe_på_melkebruk" data-name="Storfe på melkebruk" transform="translate(98.793 -1087.611)" font-size="13" font-family="MuseoSans-300, Museo Sans" font-weight="300"><tspan x="0" y="0">Storfe på melkebruk</tspan></text>
+    <text id="Storfe_ammeku" data-name="Storfe, ammeku" transform="translate(307.391 -1178.308)" font-size="13" font-family="MuseoSans-300, Museo Sans" font-weight="300"><tspan x="0" y="0">Storfe, ammeku</tspan></text>
+    <text id="Sau" transform="translate(424.786 -1124.859)" font-size="13" font-family="MuseoSans-300, Museo Sans" font-weight="300"><tspan x="0" y="0">Sau</tspan></text>
+    <text id="Støtte_per_1000_kcal_2011-kroner" data-name="Støtte per 1000 kcal, 2011-kroner" transform="translate(48.183 -781.793)" font-size="14" font-family="MuseoSans-500, Museo Sans" font-weight="500"><tspan x="0" y="0">Støtte per 1000 kcal, 2011-kroner</tspan></text>
+    <text id="Utslip_per_1000_kcal_kg._CO2-equivalenter" data-name="Utslip per 1000 kcal, kg. CO2-equivalenter" transform="translate(-245.817 -885.222) rotate(-90)" font-size="14" font-family="MuseoSans-500, Museo Sans" font-weight="500"><tspan x="0" y="0">Utslip per 1000 kcal, kg. CO2-equivalenter</tspan></text>
+  </g>
+</svg>

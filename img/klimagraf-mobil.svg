@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="347" height="223.489" viewBox="0 0 347 223.489">
+  <g id="Group_360" data-name="Group 360" transform="translate(-4634 -2142)">
+    <g id="Group_358" data-name="Group 358" transform="translate(-3)">
+      <text id="_0" data-name="0" transform="translate(4648 2362.489)" fill="#333" font-size="10" font-family="MuseoSans-500, Museo Sans" font-weight="500"><tspan x="0" y="0">0</tspan></text>
+      <text id="_20" data-name="20" transform="translate(4642 2327.919)" fill="#333" font-size="10" font-family="MuseoSans-500, Museo Sans" font-weight="500"><tspan x="0" y="0">20</tspan></text>
+      <text id="_40" data-name="40" transform="translate(4642 2292.292)" fill="#333" font-size="10" font-family="MuseoSans-500, Museo Sans" font-weight="500"><tspan x="0" y="0">40</tspan></text>
+      <text id="_60" data-name="60" transform="translate(4642 2256.665)" fill="#333" font-size="10" font-family="MuseoSans-500, Museo Sans" font-weight="500"><tspan x="0" y="0">60</tspan></text>
+      <text id="_80" data-name="80" transform="translate(4642 2221.037)" fill="#333" font-size="10" font-family="MuseoSans-500, Museo Sans" font-weight="500"><tspan x="0" y="0">80</tspan></text>
+      <text id="_100" data-name="100" transform="translate(4637 2187)" fill="#333" font-size="10" font-family="MuseoSans-500, Museo Sans" font-weight="500"><tspan x="0" y="0">100</tspan></text>
+      <text id="_120" data-name="120" transform="translate(4637 2151)" fill="#333" font-size="10" font-family="MuseoSans-500, Museo Sans" font-weight="500"><tspan x="0" y="0">120</tspan></text>
+    </g>
+    <g id="Group_344" data-name="Group 344" transform="translate(4658.5 2147.648)">
+      <g id="Group_83" data-name="Group 83" transform="translate(0 206.479)">
+        <line id="Line_58" data-name="Line 58" x2="227.5" transform="translate(0 5.29)" fill="none" stroke="#333" stroke-linecap="square" stroke-miterlimit="10" stroke-width="1"/>
+        <g id="Group_82" data-name="Group 82">
+          <g id="Group_81" data-name="Group 81">
+            <line id="Line_59" data-name="Line 59" y1="5.29" fill="none" stroke="#333" stroke-linecap="square" stroke-miterlimit="10" stroke-width="1"/>
+            <line id="Line_60" data-name="Line 60" y1="5.29" transform="translate(227.5)" fill="none" stroke="#333" stroke-linecap="square" stroke-miterlimit="10" stroke-width="1"/>
+          </g>
+        </g>
+      </g>
+      <line id="Line_61" data-name="Line 61" y1="211.77" fill="none"/>
+      <line id="Line_69" data-name="Line 69" x2="227.5" transform="translate(0 194.127)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1" opacity="0.1"/>
+      <line id="Line_70" data-name="Line 70" x2="227.5" transform="translate(0 158.83)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1" opacity="0.1"/>
+      <line id="Line_71" data-name="Line 71" x2="227.5" transform="translate(0 123.533)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1" opacity="0.1"/>
+      <line id="Line_72" data-name="Line 72" x2="227.5" transform="translate(0 88.236)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1" opacity="0.1"/>
+      <line id="Line_73" data-name="Line 73" x2="227.5" transform="translate(0 52.951)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1" opacity="0.1"/>
+      <line id="Line_74" data-name="Line 74" x2="227.5" transform="translate(0 17.654)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1" opacity="0.1"/>
+      <line id="Line_63" data-name="Line 63" x2="227.5" transform="translate(0 176.473)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1" opacity="0.1"/>
+      <line id="Line_64" data-name="Line 64" x2="227.5" transform="translate(0 141.188)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1" opacity="0.1"/>
+      <line id="Line_65" data-name="Line 65" x2="227.5" transform="translate(0 105.891)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1" opacity="0.1"/>
+      <line id="Line_66" data-name="Line 66" x2="227.5" transform="translate(0 70.594)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1" opacity="0.1"/>
+      <line id="Line_67" data-name="Line 67" x2="227.5" transform="translate(0 35.297)" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1" opacity="0.1"/>
+      <line id="Line_68" data-name="Line 68" x2="227.5" fill="none" stroke="#000" stroke-miterlimit="10" stroke-width="1" opacity="0.1"/>
+      <g id="Group_90" data-name="Group 90" transform="translate(163.64 8.833)">
+        <g id="Group_89" data-name="Group 89" transform="translate(0)">
+          <rect id="Rectangle_86" data-name="Rectangle 86" width="26.67" height="202.949" fill="#784f4d"/>
+        </g>
+      </g>
+      <g id="Group_92" data-name="Group 92" transform="translate(101.776 26.475)">
+        <g id="Group_91" data-name="Group 91">
+          <rect id="Rectangle_88" data-name="Rectangle 88" width="26.67" height="185.294" fill="#b27573"/>
+        </g>
+      </g>
+      <g id="Group_94" data-name="Group 94" transform="translate(38.914 88.025)">
+        <g id="Group_93" data-name="Group 93" transform="translate(0)">
+          <rect id="Rectangle_155" data-name="Rectangle 155" width="26.67" height="123.533" fill="#da9794"/>
+        </g>
+      </g>
+      <path id="Path_418" data-name="Path 418" d="M0,0H227.5" transform="translate(0 211.77)" fill="none" stroke="#333" stroke-linecap="square" stroke-width="1"/>
+    </g>
+    <g id="Group_347" data-name="Group 347" transform="translate(4894 2165.647)">
+      <rect id="Rectangle_341" data-name="Rectangle 341" width="25.491" height="18.029" transform="translate(0.509 35.245)" fill="#784f4d"/>
+      <path id="Path_695" data-name="Path 695" d="M0,0H25.413V18.5H0Z" transform="translate(0.587 70.165)" fill="#b27573"/>
+      <path id="Path_696" data-name="Path 696" d="M0,0H25.413V18.5H0Z" transform="translate(0.587 105.165)" fill="#da9794"/>
+      <text id="Filterkaffe" transform="translate(34 47.353)" fill="#231815" font-size="10" font-family="MuseoSans-500, Museo Sans" font-weight="500"><tspan x="0" y="0">Filterkaffe</tspan></text>
+      <text id="Kapselkaffe" transform="translate(34 82.353)" fill="#231815" font-size="10" font-family="MuseoSans-500, Museo Sans" font-weight="500"><tspan x="0" y="0">Kapselkaffe</tspan></text>
+      <text id="Pulverkaffe" transform="translate(34 117.353)" fill="#231815" font-size="10" font-family="MuseoSans-500, Museo Sans" font-weight="500"><tspan x="0" y="0">Pulverkaffe</tspan></text>
+      <g id="Group_346" data-name="Group 346" transform="translate(0 0)">
+        <path id="Path_43" data-name="Path 43" d="M379.547,28.29a1.984,1.984,0,0,0-1.558.675,2.781,2.781,0,0,0-.579,1.848h.015A2.544,2.544,0,0,0,378,32.6a1.979,1.979,0,0,0,1.543.66,1.9,1.9,0,0,0,1.528-.631,2.855,2.855,0,0,0,.519-1.848,2.869,2.869,0,0,0-.519-1.848,1.887,1.887,0,0,0-1.528-.646Zm0,0" transform="translate(-364.57 -18.813)" fill="#78504d"/>
+        <path id="Path_44" data-name="Path 44" d="M382.238,21.915l-2.892-.1c-1.061-7.853-11.977-9.205-14.3,1.308l-1.136.06c-5.955,2.892-3.616,9.325-.927,10.266v.015h19.382c4.6-1.2,5.6-9.078-.127-11.544Zm-12.216,3.669a2.528,2.528,0,0,0-1.569-.523,2.139,2.139,0,0,0-1.644.695,2.687,2.687,0,0,0-.635,1.86,2.567,2.567,0,0,0,.6,1.8,2.078,2.078,0,0,0,1.614.65,2.683,2.683,0,0,0,1.629-.568v1.106a3.5,3.5,0,0,1-1.846.448,3.017,3.017,0,0,1-2.309-.927,3.337,3.337,0,0,1-.874-2.4,3.716,3.716,0,0,1,.941-2.63,3.325,3.325,0,0,1,2.526-1,3.478,3.478,0,0,1,1.569.321v1.166Zm7.539,4.52a3.217,3.217,0,0,1-2.428.971,3.163,3.163,0,0,1-2.384-.927,3.418,3.418,0,0,1-.882-2.466v-.015a3.616,3.616,0,0,1,.912-2.6,3.257,3.257,0,0,1,2.5-.941,3.039,3.039,0,0,1,2.339.912,3.566,3.566,0,0,1,.859,2.525,3.565,3.565,0,0,1-.912,2.54Zm4.849.359V30.9h-2.339v-.418l1.121-1.121a4,4,0,0,0,.628-.74,1.065,1.065,0,0,0,.157-.568.666.666,0,0,0-.187-.508.74.74,0,0,0-.538-.172,1.435,1.435,0,0,0-.986.433V27.31a1.694,1.694,0,0,1,1.061-.351,1.172,1.172,0,0,1,.829.276.974.974,0,0,1,.306.755,1.441,1.441,0,0,1-.187.71,4.508,4.508,0,0,1-.74.882l-.882.859v.015h1.756Zm0,0" transform="translate(-360.183 -15.577)" fill="#78504d"/>
+      </g>
+    </g>
+  </g>
+</svg>

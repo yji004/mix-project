@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="965" height="467.817" viewBox="0 0 965 467.817">
+  <g id="Graf_vann_data" data-name="Graf vann_data" transform="translate(5 -1.658)">
+    <line id="Line_8" data-name="Line 8" x2="725.75" transform="translate(37.512 461.932)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line_9" data-name="Line 9" y1="11.33" x2="0.012" transform="translate(37.5 450.601)" fill="none" stroke="#333" stroke-linecap="square" stroke-miterlimit="10" stroke-width="1"/>
+    <line id="Line_10" data-name="Line 10" y1="11.332" transform="translate(762.767 450.601)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="1"/>
+    <g id="Group_305" data-name="Group 305" transform="translate(-5 1.658)">
+      <text id="_0_0" data-name="0,0" transform="translate(0 463.817)" fill="#333" font-size="14" font-family="MuseoSans-500, Museo Sans" font-weight="500"><tspan x="0" y="0">0,0</tspan></text>
+      <text id="_0_5" data-name="0,5" transform="translate(0 409)" fill="#333" font-size="14" font-family="MuseoSans-500, Museo Sans" font-weight="500"><tspan x="0" y="0">0,5</tspan></text>
+      <text id="_1_0" data-name="1,0" transform="translate(0 350.5)" fill="#333" font-size="14" font-family="MuseoSans-500, Museo Sans" font-weight="500"><tspan x="0" y="0">1,0</tspan></text>
+      <text id="_1_5" data-name="1,5" transform="translate(0 294)" fill="#333" font-size="14" font-family="MuseoSans-500, Museo Sans" font-weight="500"><tspan x="0" y="0">1,5</tspan></text>
+      <text id="_2_0" data-name="2,0" transform="translate(0 237)" fill="#333" font-size="14" font-family="MuseoSans-500, Museo Sans" font-weight="500"><tspan x="0" y="0">2,0</tspan></text>
+      <text id="_2_5" data-name="2,5" transform="translate(0 181)" fill="#333" font-size="14" font-family="MuseoSans-500, Museo Sans" font-weight="500"><tspan x="0" y="0">2,5</tspan></text>
+      <text id="_3_0" data-name="3,0" transform="translate(0 124)" fill="#333" font-size="14" font-family="MuseoSans-500, Museo Sans" font-weight="500"><tspan x="0" y="0">3,0</tspan></text>
+      <text id="_3_5" data-name="3,5" transform="translate(0 67)" fill="#333" font-size="14" font-family="MuseoSans-500, Museo Sans" font-weight="500"><tspan x="0" y="0">3,5</tspan></text>
+      <text id="_4_0" data-name="4,0" transform="translate(0 13)" fill="#333" font-size="14" font-family="MuseoSans-500, Museo Sans" font-weight="500"><tspan x="0" y="0">4,0</tspan></text>
+    </g>
+    <line id="Line_20" data-name="Line 20" x2="725.55" transform="translate(37.512 8.667)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="1" opacity="0.1"/>
+    <g id="Group_304" data-name="Group 304" transform="translate(21.512 8.667)">
+      <line id="Line_11" data-name="Line 11" y1="453.265" transform="translate(0 0)" fill="none"/>
+      <path id="Path_19" data-name="Path 19" d="M0,0H725.55" transform="translate(0 453.265)" fill="none" stroke="#333" stroke-width="0.5" opacity="0.2"/>
+      <line id="Line_13" data-name="Line 13" x2="725.55" transform="translate(0 396.607)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="1" opacity="0.1"/>
+      <line id="Line_14" data-name="Line 14" x2="725.55" transform="translate(0 339.949)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="1" opacity="0.1"/>
+      <line id="Line_15" data-name="Line 15" x2="725.55" transform="translate(0 283.291)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="1" opacity="0.1"/>
+      <line id="Line_16" data-name="Line 16" x2="725.55" transform="translate(0 226.632)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="1" opacity="0.1"/>
+      <line id="Line_17" data-name="Line 17" x2="725.55" transform="translate(0 169.974)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="1" opacity="0.1"/>
+      <line id="Line_18" data-name="Line 18" x2="725.55" transform="translate(0 113.316)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="1" opacity="0.1"/>
+      <line id="Line_19" data-name="Line 19" x2="725.55" transform="translate(0 56.658)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="1" opacity="0.1"/>
+      <line id="Line_21" data-name="Line 21" x2="725.55" transform="translate(0 424.936)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="1" opacity="0.1"/>
+      <line id="Line_22" data-name="Line 22" x2="725.55" transform="translate(0 368.278)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="1" opacity="0.1"/>
+      <line id="Line_23" data-name="Line 23" x2="725.55" transform="translate(0 311.62)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="1" opacity="0.1"/>
+      <line id="Line_24" data-name="Line 24" x2="725.55" transform="translate(0 254.962)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="1" opacity="0.1"/>
+      <line id="Line_25" data-name="Line 25" x2="725.55" transform="translate(0 198.303)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="1" opacity="0.1"/>
+      <line id="Line_26" data-name="Line 26" x2="725.55" transform="translate(0 141.645)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="1" opacity="0.1"/>
+      <line id="Line_27" data-name="Line 27" x2="725.55" transform="translate(0 84.987)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="1" opacity="0.1"/>
+      <line id="Line_28" data-name="Line 28" x2="725.55" transform="translate(0 28.329)" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="1" opacity="0.1"/>
+    </g>
+    <g id="Group_303" data-name="Group 303" transform="translate(133 8.667)">
+      <g id="Group_306" data-name="Group 306" transform="translate(-133 -7.667)">
+        <rect id="Rectangle_51" data-name="Rectangle 51" width="77.546" height="453.265" transform="translate(563 8.667)" fill="#1a3a4b"/>
+        <rect id="Rectangle_53" data-name="Rectangle 53" width="77.546" height="362.612" transform="translate(356 99.32)" fill="#326581"/>
+        <rect id="Rectangle_55" data-name="Rectangle 55" width="77.546" height="305.954" transform="translate(149 155.978)" fill="#4d99c4"/>
+      </g>
+      <g id="Group_59" data-name="Group 59" transform="translate(672.274 28.199)">
+        <rect id="Rectangle_50" data-name="Rectangle 50" width="51.52" height="32.122" transform="translate(0 84.792)" fill="#1a3a4b"/>
+        <rect id="Rectangle_52" data-name="Rectangle 52" width="51.52" height="32.122" transform="translate(0 150.792)" fill="#326581"/>
+        <rect id="Rectangle_54" data-name="Rectangle 54" width="51.52" height="32.122" transform="translate(0 215.792)" fill="#4d99c4"/>
+        <text id="Filterkaffe" transform="translate(79.726 104.792)" fill="#231815" font-size="14" font-family="MuseoSans-500, Museo Sans" font-weight="500"><tspan x="0" y="0">Filterkaffe</tspan></text>
+        <text id="Kapselkaffe" transform="translate(79.726 171.792)" fill="#231815" font-size="14" font-family="MuseoSans-500, Museo Sans" font-weight="500"><tspan x="0" y="0">Kapselkaffe</tspan></text>
+        <text id="Pulverkaffe" transform="translate(79.726 236.792)" fill="#231815" font-size="14" font-family="MuseoSans-500, Museo Sans" font-weight="500"><tspan x="0" y="0">Pulverkaffe</tspan></text>
+        <path id="Path_18" data-name="Path 18" d="M410.921,45.265c-5.882-.091-10.593-5.412-10.546-11.912a1.2,1.2,0,0,0-.52-1.033.969.969,0,0,0-1.069,0,1.2,1.2,0,0,0-.52,1.033c-.056,7.8,5.6,14.185,12.655,14.294a1.2,1.2,0,0,0,0-2.383Zm0-45.265c-2.109,0-16.874,20.25-16.874,33.353,0,10.3,7.552,18.65,16.874,18.65s16.878-8.35,16.878-18.65C427.8,20.25,413.03,0,410.921,0Zm0,50.029c-8.121,0-14.765-7.743-14.765-17.272,0-11.316,13.71-29.9,14.765-29.9s14.765,18.582,14.765,29.9c0,9.53-6.644,17.272-14.765,17.272Zm0,0" transform="translate(-384.893)" fill="#1a3a4b"/>
+      </g>
+    </g>
+  </g>
+</svg>
